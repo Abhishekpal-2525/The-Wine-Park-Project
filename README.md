@@ -1,6 +1,6 @@
 # Project Title
 
-THE WINE PARK
+**THE WINE PARK
 
 ## Description
 
@@ -35,8 +35,8 @@ command to run if program contains helper info
 
 ## Authors
 
-ABHISHEK PAL
-AKASH NAGARE
+**ABHISHEK PAL
+**AKASH NAGARE
 
 ## Version History
 
