@@ -1,0 +1,82 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* footer>h4{
+    text-align: center;
+    margin: 20px;
+} */
+
+.imgf{
+  text-align: center;
+}
+.imgf>img{
+    height: 55px;
+    padding: 8px;
+}
+h4{
+    font-size: 20px;
+}
+.im{
+    height: 50px;
+}
+footer{
+    background-color: rgb(247, 185, 69);
+    padding: 30px;
+    height: 130px;
+    width: 100%;  
+}
+
+.theory{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 498px;
+    justify-content: space-around;
+    padding: 40px 50px;
+    background-color: rgb(208, 205, 205);
+}
+.red{
+    font-size: 22px;
+    line-height: 50px;
+}
+.the1{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
+.white{
+    font-size: 22px;
+    line-height: 50px;
+}
+.the2{
+    display: flex;
+    flex-direction: column;
+    padding-right: 80px;
+    line-height: 25px;
+}
+.regions{
+    font-size: 22px;
+    line-height: 50px;
+}
+.the3{
+    display: flex;
+    flex-direction: column;
+    padding-right: 80px;
+    line-height: 25px;
+}
+
+.the4{
+    display: flex;
+    flex-direction: column;
+    padding-right: 80px;
+    color: black;
+    font-size: 22px;
+    line-height: 50px;
+}
+a{
+    color: black;
+}
