@@ -7,6 +7,7 @@
     <title>Navbar</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
@@ -29,6 +30,33 @@
             font-family: Fira Sans;
             font-weight: 400px;
         }
+
+        .search-box {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #d3d3d3;
+            padding: 4px 0;
+            width: 220px;
+        }
+
+        .search-box input {
+            border: none;
+            outline: none;
+            flex: 1;
+            font-size: 14px;
+            color: #333;
+            background: none;
+        }
+
+        .search-box input::placeholder {
+            color: #999;
+        }
+
+        .search-box .material-icons {
+            font-size: 18px;
+            color: #444;
+            cursor: pointer;
+        }
     </style>
     <link rel="stylesheet" href="./navbar.css">
 </head>
@@ -41,14 +69,32 @@
                 <a href="">Know more</a>
             </div>
             <div id="mid">
-                <input type="text">
+                <div class="search-box">
+                    <input type="text" placeholder="Search">
+                    <span class="material-icons">search</span>
+                </div>
                 <img src="./Utils/Main_Page/companylogo.png" alt="Company logo">
                 <div>
                     <a href="#">Contact Us</a>
                 </div>
+            </div>
+            <div id="bottom">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+
+
 
             </div>
-            <div id="bottom"></div>
         </nav>
     </header>
 </body>
